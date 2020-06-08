@@ -95,3 +95,19 @@
 
     transition: 400ms;
 }
+
+/* Para o modal point-created */
+
+#modal.point .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transition-delay: 400ms; /* não está funcionando, quero fazer uma transição suave entre as telas */
+}
+
+#modal.point h1 {
+    color: darkgrey;
+
+    margin-top: 32px;
+}
